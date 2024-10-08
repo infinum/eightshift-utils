@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs-tailwind/main/schemas/component.json",
+	"componentName": "admin-layout-content-listing",
+	"title": "Admin layout content listing",
+	"componentClass": "alc",
+	"example": {
+		"attributes": {
+			"adminLayoutContentListingPostTypes": [],
+			"adminLayoutContentListingUse": true
+		}
+	},
+	"attributes": {
+		"adminLayoutContentListingPostTypes": {
+			"type": "array"
+		},
+		"adminLayoutContentListingPostTypesIcons": {
+			"type": "array"
+		},
+		"adminLayoutContentListingPostStatuses": {
+			"type": "array"
+		},
+		"adminLayoutContentListingPostAuthors": {
+			"type": "array"
+		},
+		"adminLayoutContentListingPostStats": {
+			"type": "array"
+		},
+		"adminLayoutContentListingTaxonomies": {
+			"type": "array"
+		},
+		"adminLayoutContentListingPostTaxonomies": {
+			"type": "array"
+		},
+		"adminLayoutContentListingUrl": {
+			"type": "string"
+		},
+		"adminLayoutContentListingUse": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}
